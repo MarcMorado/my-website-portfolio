@@ -15,6 +15,7 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Marc Morado - Homepage</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Navbar path={router.asPath} />
