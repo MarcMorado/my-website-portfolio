@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"..\\\\components\\\\layouts\\\\main.js -> ../artemis\":{\"id\":\"..\\\\components\\\\layouts\\\\main.js -> ../artemis\",\"files\":[\"static/chunks/components_artemis_js.js\"]}}"

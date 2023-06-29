@@ -1,1 +1,8 @@
-{}
+{
+  "..\\components\\layouts\\main.js -> ../artemis": {
+    "id": "..\\components\\layouts\\main.js -> ../artemis",
+    "files": [
+      "static/chunks/components_artemis_js.js"
+    ]
+  }
+}

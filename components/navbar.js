@@ -2,7 +2,7 @@ import Logo from './logo'
 import NextLink from 'next/link'
 import {
   Container,
-  Link,
+  Button,
   Box,
   Stack,
   Heading,
@@ -50,15 +50,18 @@ const Navbar = props => {
           alignItems="center"
           mt={{ base: 4, nmd: 0 }}
         >
-          <Link href="/works" path={path}>
-            Works
-          </Link>
-          <Link href="/posts" path={path}>
-            Posts
-          </Link>
-          <Link href="https://github.com/MarcMorado" path={path}>
-            Github
-          </Link>
+          <NextLink href="/works" path={path}>
+          <Button colorScheme='teal'>Works</Button> 
+            
+          </NextLink>
+          <NextLink href="/posts" path={path}>
+          <Button colorScheme='cyan'>Posts</Button> 
+           
+          </NextLink>
+          <NextLink href="https://github.com/MarcMorado" path={path}>
+          <Button colorScheme='pink'>Github</Button> 
+            
+          </NextLink>
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton />
