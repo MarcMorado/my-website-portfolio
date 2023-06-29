@@ -15,7 +15,7 @@ const Posts = () => {
         <Section delay={0.1}>
           <SimpleGrid columns={[1, 2, 2]} gap={6}>
             <GridItem
-              title="My first Hackathon ¡WE WON!"
+              title="My first Hackathon. WE WON!"
               thumbnail={hackathon2}
               href="https://www.linkedin.com/feed/update/urn:li:activity:7077535078616064000/"
             />
