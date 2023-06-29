@@ -16,6 +16,22 @@ const Work = () => {
           marketing and social media to promote properties, attract potential
           buyers or renters, and generate leads.
         </Paragraph>
+        <List>
+          <ListItem>
+            <Meta>Website</Meta>
+            <Link href="https://www.aducion.com">
+              https://www.aducion.com
+              <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>Next, React, Tailwind, CSS</span>
+          </ListItem>
+        </List>
+        <WorkImage src="/images/thumbAducion.PNG" alt="aducion" />
+        <WorkImage src="/images/aducion_2.PNG" alt="aducion" />
+        <WorkImage src="/images/aducion_3.PNG" alt="aducion" />
       </Container>
     </Layout>
   )

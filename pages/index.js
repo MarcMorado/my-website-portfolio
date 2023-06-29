@@ -5,7 +5,9 @@ import {
   Container,
   Heading,
   Image,
-  useColorModeValue
+  List,
+  useColorModeValue,
+  ListItem
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragrah'
@@ -13,6 +15,12 @@ import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
+import {
+  IoLogoInstagram,
+  IoLogoDiscord,
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 
 const Home = () => {
   return (
@@ -113,6 +121,33 @@ const Home = () => {
               , Art, Music, Machine Learning, Designing, Playing Bass
             </Paragraph>
           </Section>
+        </Section>
+        <Section delay={0.4}>
+          <Heading as="h3" variant="section-title">
+            Find me here
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/MarcMorado">
+                <Button variant="ghost" colorScheme='cyan' leftIcon={<IoLogoGithub />}>@MarcMorado</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/marc-morado/">
+                <Button variant="ghost" colorScheme='cyan' leftIcon={<IoLogoLinkedin />}>@marc-morado</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="discordapp.com/users/181752728261885952">
+                <Button variant="ghost" colorScheme='cyan' leftIcon={<IoLogoDiscord />}>@MarcMP</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.instagram.com/marcmorado/">
+                <Button variant="ghost" colorScheme='cyan' leftIcon={<IoLogoInstagram />}>@marcmorado</Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
