@@ -110,6 +110,10 @@ const Home = () => {
             <BioYear>2022 - 2023</BioYear>
             Worked at Opposite as a FRONT-END Developer
           </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Working at Aducion as a FRONT-END Developer
+          </BioSection>
           <Section delay={0.6}>
             <Heading as="h3" variant={'section-title'}>
               My Interests ♥
